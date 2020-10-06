@@ -26,7 +26,7 @@ def get_close(acao):
 
 @app.route('/get-variation/<acao>', methods=['GET'])
 @cross_origin()
-def get_variation(acao):
+def get_variation(acao): # Função get_variation
     if '.SA' not in acao:
         acao = acao+'.SA'
     symbol = yf.Ticker(acao)
