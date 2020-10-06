@@ -11,7 +11,7 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route("/", methods=['GET'])
 def index():
-    return 'Seja bem vindo ao TATIKA!!!'
+    return 'Seja bem vindo ao TATIKA!!!' # Mensagem de boas vindas
 
 @app.route('/get-close/<acao>', methods=['GET'])
 @cross_origin()
