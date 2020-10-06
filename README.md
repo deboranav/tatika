@@ -20,7 +20,7 @@ DATA          | ABERTURA | MÍNIMO | MÁXIMO
 13/05/2020	  | 8.90	| 8.17	| 9.08	
 
 
-Nesse exemplo temos dados de 10 dias da ação BKBR3. <br>
+Nesse exemplo, temos dados de 10 dias da ação BKBR3. <br>
 Após algumas manipulações utilizando o pandas, temos o seguinte resultado:
 
 Em 75% dos dias analisados a ação chega a valorizar 2.07% e/ou desvalorizar 1.56% <br>
